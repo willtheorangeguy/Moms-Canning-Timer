@@ -1,1 +1,3 @@
-tkinter, time
+tkinter==8.6
+PyInstaller==3.3
+cx-Freeze==5.0.2
