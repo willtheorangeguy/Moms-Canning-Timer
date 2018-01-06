@@ -1,3 +1,5 @@
+# Copyright (C) 2016 - 2018 Dog Face Development Company
+
 # Import statements
 from tkinter import *
 import tkinter.messagebox as msgbox
