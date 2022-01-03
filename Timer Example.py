@@ -1,4 +1,4 @@
-# Copyright 2017-2018 Dog Face Development Co.
+# Copyright 2017-2022 Dog Face Development Co.
 import time
 
 # Main Time Function

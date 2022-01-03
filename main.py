@@ -1,4 +1,4 @@
-# Copyright (C) 2016 - 2019 Dog Face Development Co.
+# Copyright (C) 2016 - 2022 Dog Face Development Co.
 
 # Import statements
 from tkinter import *
