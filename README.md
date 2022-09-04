@@ -1,17 +1,7 @@
-# Mom's Canning Timer Documentation
+# Mom's Canning Timer
 
-This folder includes all of the docs for Mom's Canning Timer. More can be found on the [wiki](https://github.com/Dog-Face-Development/Moms-Canning-Timer/wiki).
+[![Build Status](https://travis-ci.org/Dog-Face-Development/Moms-Canning-Timer.svg?branch=master)](https://travis-ci.org/Dog-Face-Development/Moms-Canning-Timer)
 
-```text
-├── docs
-|   ├── images
-|   ├── legal
-|   |   ├── CLA_ENTITY.md
-|   |   ├── CLA_INDIVIDUAL.md
-|   |   ├── EULA.md
-|   |   ├── PRIVACY.md
-|   |   ├── TERMS.md
-|   ├── CUSTOMIZATION.md
-|   ├── USAGE.md
-└── README.md
-```
+A timer that automatically starts the time for 15 minutes and allows you to add as many stove tops and pots as you want. Written in Python for all the lovely moms and grandmothers who can fruit and veggies for us in the summer so we can enjoy them in the winter.
+
+Icons from the [Open Iconic library](https://useiconic.com/open).
