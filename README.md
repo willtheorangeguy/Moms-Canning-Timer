@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/logo.png" height="250px" width="400px" alt="Mom's Canning Timer">
+  <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/logo.png" height="350px" width="400px" alt="Mom's Canning Timer">
   <br>
   Mom's Canning Timer
   <br>
@@ -45,7 +45,9 @@
 </p>
 
 <!-- Screenshot(s) -->
-![screenshot](https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/welcome.png)
+<h1 align="center">
+  <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/welcome.png">
+</h1>
 
 ## Key Features
 
