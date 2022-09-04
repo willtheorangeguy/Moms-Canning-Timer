@@ -8,7 +8,7 @@ import time
 # Create Window
 window = Tk()
 window.title("Canning Timer")
-window.iconbitmap('favicon.ico')
+window.iconbitmap('timer/favicon.ico')
 
 # Timer Program for Burner 1 
 def timeStart1():
