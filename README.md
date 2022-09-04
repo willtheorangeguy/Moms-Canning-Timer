@@ -45,9 +45,9 @@
 </p>
 
 <!-- Screenshot(s) -->
-<h1 align="center">
+<div align="center">
   <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/welcome.png">
-</h1>
+</div>
 
 ## Key Features
 
