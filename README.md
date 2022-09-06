@@ -56,7 +56,7 @@
 * Rearrange timers to match stove top pattern.
 * Create multiple stove tops.
 * Easily update timer length.
-* Cross Platform.
+* Cross platform.
 
 ## Download
 
