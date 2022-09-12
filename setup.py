@@ -6,7 +6,7 @@ def readme():
 
 setup(
 	name='moms-canning-timer',
-	version='0.2.0',
+	version='0.2.1',
     description="Customizable 15-minute stove top timers, created for preserving fruits and veggies for the winter.",
     long_description=readme(),
     classifiers=[
@@ -19,6 +19,7 @@ setup(
     keywords='canning timer clock time gui',
     url='https://github.com/Dog-Face-Development/Moms-Canning-Timer',
     author='willtheorangeguy',
+    py_modules = ['main'],
     entry_points={
         'console_scripts': [
             'canning-timer=main:timer'
