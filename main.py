@@ -90,7 +90,7 @@ def timeStart4():
             if Min == 15:
                 break
 
-def main(): 
+def timer(): 
     # Create Window
     window = Tk()
     window.title("Canning Timer")
@@ -128,5 +128,5 @@ def main():
     window.mainloop()
 
 if __name__ == '__main__':
-    main()
+    timer()
     
