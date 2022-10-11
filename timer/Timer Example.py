@@ -35,6 +35,7 @@ def timeStart():
             if Min == 15:
                 break
 
+
 # Ask to Begin
 start = input("Would you like to begin Timing? (y/n): ")
 if start == "y":
