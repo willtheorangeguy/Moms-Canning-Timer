@@ -1,5 +1,5 @@
 """
-Mom's Canning Timer - Customizable 15-minute stove top timers. 
+Mom's Canning Timer - Customizable 15-minute stove top timers.
 Copyright (C) 2017-2023 Dog Face Development Co.
 
 This program is free software: you can redistribute it and/or modify

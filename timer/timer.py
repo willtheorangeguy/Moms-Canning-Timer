@@ -24,6 +24,7 @@ counter = 0
 def counter_label(label):
     """Main Time Function"""
     def count():
+        """Counting Seconds"""
         global counter
         counter += 1
         label.config(text=str(counter))
