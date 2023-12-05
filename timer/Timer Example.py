@@ -14,12 +14,13 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-import time
+#pylint: disable=invalid-name
 
-# Main Time Function
+import time
 
 
 def timeStart():
+    """Main Time Function"""
     # Variables to keep track and display
     Sec = 0
     Min = 0

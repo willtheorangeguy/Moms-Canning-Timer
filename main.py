@@ -14,16 +14,15 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
+#pylint: disable=invalid-name, global-variable-undefined, redefined-outer-name
+
+# Import Statements
 import time
-import tkinter.messagebox as msgbox
-from tkinter import *
-
-# Import statements
-
-# Timer Program for Burner 1
+from tkinter import Tk, Label, Button, TOP
 
 
 def timeStart1():
+    """Main Time Function 1"""
     # Variables to keep track and display
     global Sec
     global Min
@@ -44,6 +43,7 @@ def timeStart1():
 
 # Timer Program for Burner 2
 def timeStart2():
+    """Main Time Function 2"""
     # Variables to keep track and display
     Sec = 0
     Min = 0
@@ -62,6 +62,7 @@ def timeStart2():
 
 # Timer Program for Burner 3
 def timeStart3():
+    """Main Time Function 3"""
     # Variables to keep track and display
     Sec = 0
     Min = 0
@@ -80,6 +81,7 @@ def timeStart3():
 
 # Timer Program for Burner 4
 def timeStart4():
+    """Main Time Function 4"""
     # Variables to keep track and display
     Sec = 0
     Min = 0
@@ -97,6 +99,7 @@ def timeStart4():
 
 
 def timer():
+    """Main Window"""
     # Create Window
     window = Tk()
     window.title("Canning Timer")

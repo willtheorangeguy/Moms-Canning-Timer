@@ -1,15 +1,19 @@
-from setuptools import setup, find_packages
+"""Setup file for the project."""
+
+from setuptools import setup
 
 
 def readme():
-    with open("README.md") as f:
+    """Read the README.md file."""
+    with open("README.md", encoding="UTF-8") as f:
         return f.read()
 
 
 setup(
     name="moms-canning-timer",
     version="0.2.1",
-    description="Customizable 15-minute stove top timers, created for preserving fruits and veggies for the winter.",
+    description="Customizable 15-minute stove top timers, \
+        created for preserving fruits and veggies for the winter.",
     long_description=readme(),
     classifiers=[
         "Development Status :: 3 - Alpha",
