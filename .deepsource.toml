@@ -1,24 +1,23 @@
 version = 1
 
+test_patterns = ["tests/**"]
+
 exclude_patterns = [
   "/build",
   "/dist"
 ]
 
 [[analyzers]]
-name = "docker"
-enabled = true
+name = "secrets"
 
-  [analyzers.meta]
-  dockerfile_paths = ["Dockerfile"]
+[[analyzers]]
+name = "docker"
 
 [[analyzers]]
 name = "python"
-enabled = true
 
   [analyzers.meta]
   runtime_version = "3.x.x"
 
 [[transformers]]
 name = "black"
-enabled = true
