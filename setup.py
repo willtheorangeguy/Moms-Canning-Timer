@@ -11,7 +11,7 @@ def readme():
 
 setup(
     name="moms-canning-timer",
-    version="0.2.1",
+    version="0.3.0",
     description="Customizable 15-minute stove top timers, \
         created for preserving fruits and veggies for the winter.",
     long_description=readme(),
