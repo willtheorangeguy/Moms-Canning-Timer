@@ -1,5 +1,5 @@
 """Tests for main.py."""
-#pylint: disable=invalid-name, wrong-import-position
+# pylint: disable=invalid-name, wrong-import-position
 
 import sys
 import os
@@ -12,6 +12,7 @@ from main import timeStart1, timeStart2, timeStart3, timeStart4
 
 class TestTimer(unittest.TestCase):
     """Tests for timer.py."""
+
     def test_timeStart1(self):
         """Test timeStart1 function."""
         self.assertTrue(callable(timeStart1))
@@ -28,5 +29,6 @@ class TestTimer(unittest.TestCase):
         """Test timeStart4 function."""
         self.assertTrue(callable(timeStart4))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
