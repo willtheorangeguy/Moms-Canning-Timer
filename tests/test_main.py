@@ -44,7 +44,7 @@ class TestTimer(unittest.TestCase):
     def test_timeStart1_execution(self, mock_print, mock_sleep):
         """Test timeStart1 runs without errors when mocked."""
         self._run_function_in_thread(timeStart1)
-        
+
         # Verify that print was called (timer is running)
         self.assertTrue(mock_print.called)
         # Verify that sleep was called (timer is working)
@@ -55,7 +55,7 @@ class TestTimer(unittest.TestCase):
     def test_timeStart2_execution(self, mock_print, mock_sleep):
         """Test timeStart2 runs without errors when mocked."""
         self._run_function_in_thread(timeStart2)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
@@ -64,7 +64,7 @@ class TestTimer(unittest.TestCase):
     def test_timeStart3_execution(self, mock_print, mock_sleep):
         """Test timeStart3 runs without errors when mocked."""
         self._run_function_in_thread(timeStart3)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
@@ -73,7 +73,7 @@ class TestTimer(unittest.TestCase):
     def test_timeStart4_execution(self, mock_print, mock_sleep):
         """Test timeStart4 runs without errors when mocked."""
         self._run_function_in_thread(timeStart4)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
