@@ -1,4 +1,5 @@
 """Tests for main.py."""
+
 # pylint: disable=invalid-name, wrong-import-position
 
 import sys
@@ -31,66 +32,70 @@ class TestTimer(unittest.TestCase):
         """Test timeStart4 function is callable."""
         self.assertTrue(callable(timeStart4))
 
-    @patch('time.sleep')
-    @patch('builtins.print')
+    @patch("time.sleep")
+    @patch("builtins.print")
     def test_timeStart1_execution(self, mock_print, mock_sleep):
         """Test timeStart1 runs without errors when mocked."""
+
         # Run in a thread with timeout to prevent hanging
         def run_timer():
             timeStart1()
-        
+
         thread = threading.Thread(target=run_timer)
         thread.daemon = True
         thread.start()
         thread.join(timeout=2.0)
-        
+
         # Verify that print was called (timer is running)
         self.assertTrue(mock_print.called)
         # Verify that sleep was called (timer is working)
         self.assertTrue(mock_sleep.called)
 
-    @patch('time.sleep')
-    @patch('builtins.print')
+    @patch("time.sleep")
+    @patch("builtins.print")
     def test_timeStart2_execution(self, mock_print, mock_sleep):
         """Test timeStart2 runs without errors when mocked."""
+
         def run_timer():
             timeStart2()
-        
+
         thread = threading.Thread(target=run_timer)
         thread.daemon = True
         thread.start()
         thread.join(timeout=2.0)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
-    @patch('time.sleep')
-    @patch('builtins.print')
+    @patch("time.sleep")
+    @patch("builtins.print")
     def test_timeStart3_execution(self, mock_print, mock_sleep):
         """Test timeStart3 runs without errors when mocked."""
+
         def run_timer():
             timeStart3()
-        
+
         thread = threading.Thread(target=run_timer)
         thread.daemon = True
         thread.start()
         thread.join(timeout=2.0)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
-    @patch('time.sleep')
-    @patch('builtins.print')
+    @patch("time.sleep")
+    @patch("builtins.print")
     def test_timeStart4_execution(self, mock_print, mock_sleep):
         """Test timeStart4 runs without errors when mocked."""
+
         def run_timer():
             timeStart4()
-        
+
         thread = threading.Thread(target=run_timer)
         thread.daemon = True
         thread.start()
         thread.join(timeout=2.0)
-        
+
         self.assertTrue(mock_print.called)
         self.assertTrue(mock_sleep.called)
 
@@ -98,25 +103,25 @@ class TestTimer(unittest.TestCase):
         """Test timer function is callable."""
         self.assertTrue(callable(timer))
 
-    @patch('main.Tk')
+    @patch("main.Tk")
     def test_timer_creates_window(self, mock_tk):
         """Test timer function creates a Tk window."""
         # Mock the Tk instance and its methods
         mock_window = MagicMock()
         mock_tk.return_value = mock_window
-        
+
         # Run timer in a thread to avoid blocking
         def run_timer():
             try:
                 timer()
             except:
                 pass  # Expected to fail when mainloop is not properly mocked
-        
+
         thread = threading.Thread(target=run_timer)
         thread.daemon = True
         thread.start()
         thread.join(timeout=1.0)
-        
+
         # Verify Tk was instantiated
         mock_tk.assert_called_once()
         # Verify window title was set
