@@ -14,7 +14,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-#pylint: skip-file
+
+# pylint: skip-file
 
 import tkinter as tk
 
@@ -23,6 +24,7 @@ counter = 0
 
 def counter_label(label):
     """Main Time Function"""
+
     def count():
         """Counting Seconds"""
         global counter
