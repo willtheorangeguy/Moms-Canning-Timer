@@ -1,6 +1,6 @@
 """Tests for main.py."""
 
-# pylint: disable=invalid-name, wrong-import-position
+# pylint: disable=invalid-name, wrong-import-position, import-error
 
 import sys
 import os
@@ -92,7 +92,7 @@ class TestTimer(unittest.TestCase):
         def run_timer():
             try:
                 timer()
-            except Exception:
+            except Exception:  # pylint: disable=broad-exception-caught
                 # Expected to fail when mainloop is not properly mocked
                 pass
 
