@@ -1,5 +1,7 @@
 """Tests for __init__.py."""
 
+# pylint: disable=wrong-import-position, import-error
+
 import sys
 import os
 import unittest
