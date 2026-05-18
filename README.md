@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/logo.png" height="350px" width="400px" alt="Mom's Canning Timer">
+  <img src="https://github.com/willtheorangeguy/Moms-Canning-Timer/blob/master/docs/images/logo.png" height="350px" width="400px" alt="Mom's Canning Timer">
   <br>
   Mom's Canning Timer
   <br>
@@ -12,25 +12,25 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/actions/workflows/push-to-pypi.yml/badge.svg">
+  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Moms-Canning-Timer/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Pytest State" src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/actions/workflows/pytest.yml/badge.svg">
+  <img alt="Pytest State" src="https://github.com/willtheorangeguy/Moms-Canning-Timer/actions/workflows/pytest.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Pylint State" src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/actions/workflows/pylint.yml/badge.svg">
+  <img alt="Pylint State" src="https://github.com/willtheorangeguy/Moms-Canning-Timer/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
-  <img alt="CodeQL State" src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/actions/workflows/codeql-analysis.yml/badge.svg">
+  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Moms-Canning-Timer/actions/workflows/codeql-analysis.yml/badge.svg">
   <!-- Version -->
-  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/Dog-Face-Development/Moms-Canning-Timer?include_prereleases">
+  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Moms-Canning-Timer?include_prereleases">
   <!-- Issues -->
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Dog-Face-Development/Moms-Canning-Timer">
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Moms-Canning-Timer">
   <!-- Pull Requests -->
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Dog-Face-Development/Moms-Canning-Timer">
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Moms-Canning-Timer">
   <!-- Discord -->
   <img alt="Discord Server ID" src="https://img.shields.io/discord/1015833914876629032">
   <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/Dog-Face-Development/Moms-Canning-Timer/total">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Moms-Canning-Timer/total">
   <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/Dog-Face-Development/Moms-Canning-Timer">
+  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Moms-Canning-Timer">
 </div>
 
 <!-- Navigation -->
@@ -46,7 +46,7 @@
 
 <!-- Screenshot(s) -->
 <div align="center">
-  <img src="https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/images/welcome.png">
+  <img src="https://github.com/willtheorangeguy/Moms-Canning-Timer/blob/master/docs/images/welcome.png">
 </div>
 
 ## Key Features
@@ -60,13 +60,13 @@
 
 ## Download
 
-You can **[download](https://github.com/Dog-Face-Development/Moms-Canning-Timer/releases/latest) the source code** to run the scripts from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
+You can **[download](https://github.com/willtheorangeguy/Moms-Canning-Timer/releases/latest) the source code** to run the scripts from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
-You can **[download](https://github.com/Dog-Face-Development/Moms-Canning-Timer/releases/latest) the latest executable version** of Mom's Canning Timer for Windows. **This does not require Python.**
+You can **[download](https://github.com/willtheorangeguy/Moms-Canning-Timer/releases/latest) the latest executable version** of Mom's Canning Timer for Windows. **This does not require Python.**
 
 ## How To Use
 
-To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/Moms-Canning-Timer/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/Dog-Face-Development/Moms-Canning-Timer/main/README.md#pip) to create a command line application.
+To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Moms-Canning-Timer/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/willtheorangeguy/Moms-Canning-Timer/main/README.md#pip) to create a command line application.
 
 ### Git
 
@@ -74,7 +74,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/downloa
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Dog-Face-Development/Moms-Canning-Timer
+$ git clone https://github.com/willtheorangeguy/Moms-Canning-Timer
 
 # Go into the repository
 $ cd Moms-Canning-Timer
@@ -97,13 +97,13 @@ $ canning-timer
 
 ## Support
 
-Customization for Mom's Canning Timer can be found in the [`CUSTOMIZATION`](https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/CUSTOMIZATION.md) doc. More documentation is available in the **[Documentation](https://github.com/Dog-Face-Development/Moms-Canning-Timer/tree/master/docs)** and on the **[Wiki](https://github.com/Dog-Face-Development/Moms-Canning-Timer/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/Dog-Face-Development/Moms-Canning-Timer/discussions)** or join our **[Discord](https://discord.gg/khcBGp3Pwj)**.
+Customization for Mom's Canning Timer can be found in the [`CUSTOMIZATION`](https://github.com/willtheorangeguy/Moms-Canning-Timer/blob/master/docs/CUSTOMIZATION.md) doc. More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Moms-Canning-Timer/tree/master/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Moms-Canning-Timer/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Moms-Canning-Timer/discussions)** or join our **[Discord](https://discord.gg/khcBGp3Pwj)**.
 
 ## Contributing
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Dog-Face-Development/Moms-Canning-Timer/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Moms-Canning-Timer/compare).
 
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us (including how to sign our CLA).
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## Changelog
 
@@ -141,10 +141,10 @@ This software uses the following open source packages, projects, services or web
 
 ## You may also like...
 
-* [ProgramVer](https://github.com/Dog-Face-Development/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/Dog-Face-Development/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [PyAvatar](https://github.com/Dog-Face-Development/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
+* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
+* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
+* [PyAvatar](https://github.com/willtheorangeguy/PyAvatar) - Easily display all of your creative avatars to keep them consistent across websites.
 
 ## License
 
-This project is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/legal/PRIVACY.md), [Terms and Conditions](https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/legal/TERMS.md), and [EULA](https://github.com/Dog-Face-Development/Moms-Canning-Timer/blob/master/docs/legal/EULA.md) for legal information.
+This project is licensed under the [MIT License](https://mit-license.org/) - see the [`LICENSE`](LICENSE.md) file for details.
