@@ -1,25 +1,45 @@
 [build-system]
 build-backend = "setuptools.build_meta"
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61", "wheel"]
 
 [project]
-name = "Moms-Canning-Timer"
-version = "0.3.0"
+name = "moms-canning-timer"
+version = "1.0.0"
 authors = [
-  { name= "willtheorangeguy" },
+  { name = "willtheorangeguy" },
 ]
-description = "Customizable 15-minute stove top timers, created for preserving fruits and veggies for the winter."
+description = "Customizable stove top timers, created for preserving fruits and veggies for the winter."
 readme = "README.md"
-license = { file="LICENSE.md" }
+license = { file = "LICENSE.md" }
 requires-python = ">=3.9"
+keywords = ["canning", "timer", "clock", "time", "gui"]
 classifiers = [
-    'Development Status :: 3 - Alpha',
-    'License :: OSI Approved :: MIT License',
-    'Natural Language :: English',
-    'Operating System :: OS Independent',
-    'Topic :: Utilities',
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
 ]
 
 [project.urls]
 "Homepage" = "https://github.com/willtheorangeguy/Moms-Canning-Timer"
 "Bug Tracker" = "https://github.com/willtheorangeguy/Moms-Canning-Timer/issues"
+
+[project.scripts]
+canning-timer = "moms_canning_timer.app:main"
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pylint.main]
+init-hook = "import sys; sys.path.append('tests')"
+
+[tool.pylint."messages control"]
+disable = ["too-many-instance-attributes", "too-many-arguments", "too-many-positional-arguments"]
+
+[tool.pylint.basic]
+# Test methods are self-describing; don't require docstrings on them.
+no-docstring-rgx = "^(_|test_)"

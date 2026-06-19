@@ -1,3 +1,5 @@
 # Project Requirements
-
+#
+# Runtime: none (uses the Python standard library, including tkinter).
+# Development / testing only:
 pytest

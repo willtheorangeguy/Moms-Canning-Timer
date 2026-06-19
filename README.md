@@ -7,7 +7,7 @@
 </h1>
 
 <!-- Copy -->
-<h4 align="center">Customizable 15-minute stove top timers, created for preserving fruits and veggies for the winter.</h4>
+<h4 align="center">Customizable stove top timers, created for preserving fruits and veggies for the winter.</h4>
 
 <!-- Badges -->
 <div align="center">
@@ -51,12 +51,12 @@
 
 ## Key Features
 
-* Create 15 minute timers for cans.
-* Create multiple timers.
-* Rearrange timers to match stove top pattern.
-* Create multiple stove tops.
-* Easily update timer length.
-* Cross platform.
+* Four canning timers laid out in a 2x2 grid, like a stove top.
+* Circular progress ring around each timer.
+* Set each timer's length (in minutes) right in the GUI.
+* Start, Pause/Resume, and Reset controls per burner.
+* Bell + popup alert when a timer finishes.
+* Cross platform, no third-party dependencies (pure standard-library tkinter).
 
 ## Download
 
@@ -79,8 +79,13 @@ $ git clone https://github.com/willtheorangeguy/Moms-Canning-Timer
 # Go into the repository
 $ cd Moms-Canning-Timer
 
-# Run the CLI
+# Run straight from the folder (no install needed)
 $ python main.py
+
+# ...or install the package and use the command / module
+$ pip install -e .
+$ canning-timer
+$ python -m moms_canning_timer
 ```
 
 ### `pip`
