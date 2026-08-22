@@ -3,7 +3,7 @@
 Four independent countdown timers in a tkinter window, arranged like a stove top. No
 third-party dependencies — the whole thing runs on the Python standard library.
 
-```
+```text
 Moms-Canning-Timer/
 ├── docs/
 │   ├── README.md          this page

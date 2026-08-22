@@ -2,7 +2,7 @@
 
 ## Layout
 
-```
+```text
 main.py                          run from a clone, no install
 src/moms_canning_timer/
 ├── __main__.py                  python -m moms_canning_timer

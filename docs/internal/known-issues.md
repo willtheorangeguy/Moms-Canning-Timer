@@ -7,12 +7,11 @@ licensing decision rather than a documentation one.
 Ordered by severity. See [`docs/roadmap.md`](../roadmap.md) for the narrative version,
 which also covers deliberate non-goals.
 
-
 **2 open:** 1 medium, 1 low.
 
 ## 1. Logo and screenshot never rendered — /blob/ URLs serve HTML, not images
 
-**Severity:** Medium  
+**Severity:** Medium
 **Where:** `README.md`, the logo and hero `<img src>`
 
 **What:** Both pointed at `github.com/willtheorangeguy/Moms-Canning-Timer/blob/master/docs/images/...`. A `/blob/` URL returns a GitHub HTML page rather than image bytes.
@@ -23,7 +22,7 @@ which also covers deliberate non-goals.
 
 ## 2. Self-links were missing /blob/ and pointed at the wrong branch
 
-**Severity:** Low  
+**Severity:** Low
 **Where:** `README.md`, the How To Use intro
 
 **What:** Links were written as `github.com/willtheorangeguy/Moms-Canning-Timer/main/README.md#git`. They omit the `/blob/` segment **and** name `main`, while this repository's default branch is `master`.
@@ -31,7 +30,6 @@ which also covers deliberate non-goals.
 **Why it matters:** Two independent faults in one URL, so it could never have resolved.
 
 **Suggested fix:** Fixed in this sweep by replacing them with in-page anchors. Worth noting the default branch is `master` when writing links by hand.
-
 
 ---
 

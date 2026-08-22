@@ -6,7 +6,7 @@ No. There are no third-party dependencies — tkinter is part of the standard li
 Linux distributions tkinter is packaged separately from Python, which is the one thing worth
 checking.
 
-## Nothing happens when I run it.
+## Nothing happens when I run it
 
 Almost always missing tkinter:
 
