@@ -11,6 +11,7 @@ the core logic testable without a display, while the GUI tests skip
 automatically when no display is available.
 
 ### tests/test_state.py
+
 Tests for `TimerState`, the GUI-free countdown logic. Always runs (no display
 needed).
 
@@ -20,6 +21,7 @@ needed).
 - `fraction_done()` endpoints and `display()` (`MM:SS`) formatting.
 
 ### tests/test_widget.py
+
 Tests for the `CircularTimer` widget. Skipped when no Tk display is available.
 
 - Initial display and spinbox-driven duration.
@@ -27,6 +29,7 @@ Tests for the `CircularTimer` widget. Skipped when no Tk display is available.
 - Finish path fires the injected alert callback (no real dialog in tests).
 
 ### tests/test_app.py
+
 Tests for `build_window()`. Skipped when no Tk display is available.
 
 - Window title.
@@ -34,10 +37,12 @@ Tests for `build_window()`. Skipped when no Tk display is available.
 - Timers placed in a 2x2 grid (`{(0,0), (0,1), (1,0), (1,1)}`).
 
 ### tests/test_package.py
+
 Tests for package metadata: `__version__`, `__all__` exports, and that the
 `canning-timer` entry point (`moms_canning_timer.app:main`) is callable.
 
 ### tests/gui_support.py
+
 Helper that detects whether a Tk display is available, used by the GUI tests via
 `@unittest.skipUnless`.
 
@@ -46,11 +51,13 @@ Helper that detects whether a Tk display is available, used by the GUI tests via
 ### Locally
 
 1. Install the package with test extras:
+
 ```bash
 pip install -e .[test]
 ```
 
-2. Install tkinter (if not already installed):
+1. Install tkinter (if not already installed):
+
 ```bash
 # On Ubuntu/Debian
 sudo apt-get install python3-tk
@@ -61,7 +68,8 @@ brew install python-tk
 # On Windows, tkinter ships with the official Python installer.
 ```
 
-3. Run tests:
+1. Run tests:
+
 ```bash
 # Run all tests
 pytest

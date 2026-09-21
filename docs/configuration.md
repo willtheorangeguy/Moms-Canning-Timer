@@ -1,4 +1,4 @@
-# Mom's Canning Timer Customization
+# Mom's Canning Timer — Configuration
 
 Mom's Canning Timer is customizable directly from the GUI — no code editing
 required.
